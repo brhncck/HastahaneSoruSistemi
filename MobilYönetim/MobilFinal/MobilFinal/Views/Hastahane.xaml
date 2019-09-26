@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobilFinal.Views.Hastahane">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Eklemek İstediğiniz Hastahane Adı"/>
+            <Entry x:Name="Entry_H_ad" Placeholder="Hastane Adı"/>
+            <Label Text="Eklemek İstediğiniz Hastahane Kodu"/>
+            <Entry x:Name="Entry_H_kod"  Placeholder="Hastane Kodu"/>
+            <Button x:Name="Btn_hastane" Clicked="Add_hastane"/>
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobilFinal.Views.Page2">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="Lbl_Username" Text="Kullanıcı Adı"/>
+            <Entry x:Name="Entry_Username" Placeholder="Kullanıcı Adı"/>
+            <Label x:Name="Lbl_Password" Text="Şifre"/>
+            <Entry x:Name="Entry_Password" Placeholder="Şifre"/>
+            <Button x:Name="Btn_Sing" Text="Giriş Yap" Clicked="Soru_ekrani"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

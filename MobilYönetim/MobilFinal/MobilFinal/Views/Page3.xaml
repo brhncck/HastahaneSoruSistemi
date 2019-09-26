@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobilFinal.Views.Page3">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Yeni Hastane Eklemek İçin Tıklayınız"/>
+            <Button Text="Hastane Ekle" Clicked="add_h"/>
+            <Label Text="Yeni Şube Eklemek İçin Tıklayınız"/>
+            <Button Text="Şube Ekle" Clicked="add_s"/>
+            <Label Text="Yeni Kullanıcı Eklemek İçin Tıklayınız"/>
+            <Button Text="Kullanıcı Ekle" Clicked="add_u"/>            
+            <Label Text="Yeni Soru Eklemek İçin Tıklayınız"/>
+            <Button Text="Soru Ekle" Clicked="add_So"/>
+            <Button Text="Cevapları Gör" Clicked="btn_cevap"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

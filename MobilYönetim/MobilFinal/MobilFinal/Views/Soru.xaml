@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobilFinal.Views.Soru">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Eklemek istediğiniz Sorunun Türünü Giriniz"/>
+
+            <Entry x:Name="Entry_Tur" Placeholder="Tur"/>           
+
+            <Label Text="Eklemek istediğiniz Soruyu giriniz"/>
+            
+            <Entry x:Name="Entry_soru" Placeholder="Soru Alanı"/>
+
+            <Label Text="Sorunun ekleneceği Şube Kodunu giriniz"/>
+
+            <Entry x:Name="Entry_Sube_Kod" Placeholder="Sube Kodu"/>
+
+            <Label Text="Sorunun ait olduğu Nesne Kodunu giriniz"/>
+            
+            <Entry x:Name="Entry_Nesne_Kod" Placeholder="Nesne Kodu"/>
+
+            <Label Text="Sorunun ait olduğu Kullanıcı Adını giriniz"/>
+
+            <Entry x:Name="Entry_Username" Placeholder="Kullanıcı Adı "/>
+
+            <Label Text="Soru için açıklama giriniz"/>
+
+            <Entry x:Name="Entry_Aciklama" Placeholder="Aciklama Giriniz"/>
+
+            <Button x:Name="Btn_Soru" Clicked="Add_Soru"/>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

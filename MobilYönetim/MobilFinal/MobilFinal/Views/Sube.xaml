@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobilFinal.Views.Sube">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Eklemek İstediğiniz Sube Adı"/>
+            <Entry x:Name="Entry_Sube_adi" Placeholder="Sube Adı"/>
+            <Label Text="Eklemek İstediğiniz Subenin Ait olduğu Hastane Id sini giriniz"/>
+            <Entry x:Name="Entry_H_Kodu" Placeholder="Sube Id"/>
+            <Label Text="Eklemek İstediğiniz Sube Kodu"/>
+            <Entry x:Name="Entry_Sube_Kodu"  Placeholder="Sube Kodu"/>
+            <Button x:Name="Btn_sube" Clicked="Add_sube"/>
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
